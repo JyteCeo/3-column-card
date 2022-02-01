@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+.main-container{
+    width: 100%;
+    max-width: 66em;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    overflow: hidden;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+.page-wrapper{
+    max-width: 22em;
+    padding: 4em;
+}
+.page-title{
+    font-size: 2em;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+.page-description{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+.page-content{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.learn-more p{
+    border-radius: 25em;
+    padding: 1em;
+    width: 10em;
+    background: white;
+    text-align: center;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 100ms;
+}
+.p-cyan{
+    color: hsl(184, 100%, 22%);
+}
+.p-dark-cyan{
+    color: hsl(179, 100%, 13%);
+}
+.p-orange{
+    color: hsl(31, 77%, 52%);
+}
+.learn-more .p-orange:hover{
+    border-color: white;
+    background: hsl(31, 77%, 52%);
+    color: white;
+}
+.learn-more .p-cyan:hover{
+    border-color: white;
+    background: hsl(184, 100%, 22%);
+    color: white;
+}
+.learn-more .p-dark-cyan:hover{
+    border-color: white;
+    background: hsl(179, 100%, 13%);
+    color: white;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.orange{
+    background: hsl(31, 77%, 52%);
+}
+.cyan{
+    background: hsl(184, 100%, 22%);
+}
+.dark-cyan{
+    background: hsl(179, 100%, 13%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* @media screen and (max-width:1024px) {
+    .main-container{
+        width: 60em;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .main-container{
+        width: 55em;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .main-container{
+        width: 53em;
+    }
+} */
+/* 
+@media screen and (max-width: 375px) {
+   .main-container{
+       flex-direction: column;
+   }
+} */
